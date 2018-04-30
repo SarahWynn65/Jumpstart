@@ -1,0 +1,44 @@
+/*  Stylesheet for Jumpstart */
+
+/*  */
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  background-color: pink;
+}
+
+nav a {
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding: 0 1rem;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  color: white;
+  width: 51.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron p, .jumbotron a {
+  width: 51.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: block;
+}
