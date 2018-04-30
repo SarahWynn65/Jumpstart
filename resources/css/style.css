@@ -1,34 +1,60 @@
 /*  Stylesheet for Jumpstart */
 
+/* -------general------- */
+
 html {
   --button-color: #399bd1;
-
+  --nav-color: #399bd1;
 }
+
+
 
 .button {
   background-color: var(--button-color);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
   margin-top: 2.8rem;
+  margin-left: auto; /* center button in middle of page */
+  margin-right: auto;
   padding: 1.3rem;
   border-radius: 5px;
   text-align: center; /* center text in middle of button */
 }
 
-footer .button,
-.mySlides .button {
-  margin-left: auto;
-  margin-right: auto;
-  /* text-align: center; */
+/* -------header------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
 }
 
-/* footer */
+nav a {
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--nav-color);
+  padding-right: 1.5rem;
+}
+
+header img {
+  margin-top: auto; /* these allow the image to keep its intended ratios */
+  margin-bottom: auto;
+}
+
+/* -------carousel------- */
+
+/* -------featured project------- */
+
+/* -------projects------- */
+
+/* -------footer------- */
 
 footer {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-content: center;
+  /* justify-content: center;
+  align-content: center; */
   padding-top: 5.2rem;
   padding-bottom: 5.2rem;
   background-color: #f3f3f3;
@@ -47,8 +73,4 @@ footer p {
   margin-right: auto;
   text-align: center;
   width: 42rem;
-}
-
-a {
-
 }
