@@ -1,1 +1,54 @@
 /*  Stylesheet for Jumpstart */
+
+html {
+  --button-color: #399bd1;
+
+}
+
+.button {
+  background-color: var(--button-color);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  width: 11.4rem;
+  margin-top: 2.8rem;
+  padding: 1.3rem;
+  border-radius: 5px;
+  text-align: center; /* center text in middle of button */
+}
+
+footer .button,
+.mySlides .button {
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+footer h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+footer p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 42rem;
+}
+
+a {
+
+}
