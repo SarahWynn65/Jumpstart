@@ -5,9 +5,9 @@
 html {
   --button-color: #399bd1;
   --nav-color: #399bd1;
+  --highlight-color: #399bd1;
+  font-size: 14px;
 }
-
-
 
 .button {
   background-color: var(--button-color);
@@ -19,6 +19,17 @@ html {
   padding: 1.3rem;
   border-radius: 5px;
   text-align: center; /* center text in middle of button */
+}
+
+h2 {
+  color: var(--highlight-color);
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1.43rem; /* specified as 20px, which is 1.43rem at base font size 14px; */
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 /* -------header------- */
@@ -46,7 +57,64 @@ header img {
 
 /* -------featured project------- */
 
+/* #featured-project img {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.vertical-section {
+  display: inline-flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.horizontal-section {
+  display: inline-flex;
+  flex-direction: row;
+} */
+
+#featured-project img {
+  box-sizing: border-box;
+  max-width: 100%; /* Needed to allow image to shrink */
+  height: auto;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /* -------projects------- */
+
+/* #projects {
+  padding: 5.2rem;
+} */
+
+.article {
+  /* box-sizing: border-box; */
+  /* padding: .5rem;
+  margin: 0.5rem; */
+  max-width: 90%;
+  overflow: hidden;
+  margin-bottom: 4.85rem;
+}
+
+.article img {
+}
+
+.article h3 {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.article p {
+  /* margin: .5rem; */
+  max-width: 480px; /* this is the maximum width of the images */
+}
 
 /* -------footer------- */
 
